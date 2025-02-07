@@ -17,7 +17,21 @@ body, html{
     width: 100%;
     background-color: #B6C4CF;
 }
-  
+
+.clickable-logo {
+    display: inline-block;
+    padding: 10px;
+}
+
+.header-logo {
+    margin: 0;
+    padding: 0;
+    border: none;
+    height: 75px;
+    width: auto;
+    pointer-events: none;
+} 
+
 .logo {
     max-width: 300px;
     width: 100%;
