@@ -1,9 +1,23 @@
-body, html{
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
     margin: 0;
     padding: 0;
     width: 100%;
     display: flex;
     flex-direction: column;
+}
+
+/* unless there is a better way of making the footer the same color as the body */
+footer {
+    background-color: #B6C4CF;
+}
+
+.backgroundcolor {
+    background-color: #B6C4CF;
 }
 
 .body-container {
@@ -39,4 +53,4 @@ body, html{
     margin-bottom: 20px;
     background: transparent;
 }
-  
+

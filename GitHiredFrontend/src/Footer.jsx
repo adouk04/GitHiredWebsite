@@ -1,8 +1,8 @@
 
 function Footer() {
     return (
-        <footer>
-            <p>© 2025 GitHired</p>
+        <footer className="page-color">
+            <p className="m-0 py-4">© 2025 GitHired</p>
         </footer>
     );
 }
