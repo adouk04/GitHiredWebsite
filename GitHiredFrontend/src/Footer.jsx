@@ -1,9 +1,21 @@
+import { Container, Row, Col } from "react-bootstrap";
 
 function Footer() {
     return (
-        <footer className="page-color">
-            <p className="m-0 py-4">© 2025 GitHired</p>
-        </footer>
+        <Footer>
+            <Container>
+                <Row className="justify-content-center align-items-center">
+                    <Col xs="Auto">
+                        <a href="https://discord.gg/sSzzyJrHK3" target="_blank" 
+                            rel="noopener noreferrer">
+
+                        </a>
+                            <img src="/discord-mark-white.png" alt="Discord Logo"/>
+                    </Col>
+                </Row>
+            </Container> 
+        </Footer>
+               
     );
 }
 
