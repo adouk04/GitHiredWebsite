@@ -9,11 +9,13 @@ function App() {
     return (
 		<Router>
             <Header />
+
             <Routes>
                 {/* Define the routes */}
                 <Route path="/" element={<Home />} /> {/* Home Page */}
                 <Route path="/about" element={<About />} /> {/* About Us Page */}
             </Routes>
+            
             <Footer />
         </Router>
     );
