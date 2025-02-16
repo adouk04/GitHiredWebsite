@@ -2,6 +2,7 @@ import { Container, Button } from "react-bootstrap";
 import "./styles.css";
 
 function Home() {
+    /* test */
     return (
         <Container fluid className="body-container">
             <img src="/GitHired-Logo-Transparent.png" alt="GitHired Logo" className="logo"/>
