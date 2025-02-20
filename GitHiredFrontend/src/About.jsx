@@ -1,6 +1,7 @@
 import { Container, Col, Button } from 'react-bootstrap';
 import InfoSection from './components/InfoSection';
-import CardComponent from './components/CardComponent';
+import InfoCard from './components/InfoCard';
+import ProfileCard from './components/ProfileCard';
 
 function About() {
 	return (
@@ -40,27 +41,6 @@ function About() {
 				imageRight = {false} //true image right, false image left
 			/>
 
-
-			<div class="container px-4 py-5" id="hanging-icons">
-				<h2 class="pb-2 border-bottom">Hanging icons</h2>
-				<div class="row g-4 py-3 row-cols-1 row-cols-lg-3">
-					<CardComponent
-						title="Mock Interviews"
-						imgSrc="/GitHired-Logo-Transparent.png"
-						text="Prepare for real technical interviews with mock sessions that simulate the actual experience. Practice coding problems, behavioral questions, and gain feedback to improve your performance under pressure."
-					/>
-					<CardComponent
-						title="Resume Reviews"
-						imgSrc="/GitHired-Logo-Transparent.png"
-						text="Enhance your resume with expert feedback to make it stand out. We'll help you optimize formatting, content, and structure, ensuring it effectively highlights your skills and experiences to attract employers."
-					/>
-					<CardComponent
-						title="Technical Prep"
-						imgSrc="/GitHired-Logo-Transparent.png"
-						text="Master coding challenges and algorithms with targeted practice. Our resources guide you through essential concepts, offering curated exercises and solutions to prepare you for technical interviews."
-					/>
-				</div>
-			</div>
 
 		</div>
 	  )

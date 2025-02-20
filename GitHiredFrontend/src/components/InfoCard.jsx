@@ -1,5 +1,5 @@
 import { Card } from "react-bootstrap"
-function CardComponent({ title, imgSrc, text }) {
+function InfoCard({ title, imgSrc, text }) {
     return(
         <Card className="d-flex align-items-start backgroundcolor border-0">
             <div className="icon-square text-dark flex-shrink-0 me-2">
@@ -17,7 +17,7 @@ function CardComponent({ title, imgSrc, text }) {
     )
 }
 
-export default CardComponent
+export default InfoCard
 
 
 {/* <div class="col d-flex align-items-start">
