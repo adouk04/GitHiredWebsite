@@ -9,6 +9,8 @@ function ProfileCard({ imgSrc, title, name, linkedInUrl, githubUrl }) {
             <Card.Title>{title}</Card.Title>
             <Card.Text>{name}</Card.Text>
             <div className="d-flex align-items-center gap-3">
+            
+            {/* LinkedIn */}
             {linkedInUrl && (
               <a href={linkedInUrl} target="_blank" rel="noopener noreferrer">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#0a66c2" className="bi bi-linkedin"viewBox="0 0 16 16">
@@ -28,6 +30,7 @@ function ProfileCard({ imgSrc, title, name, linkedInUrl, githubUrl }) {
               </a>
             )}
 
+            {/* GitHub */}
             {githubUrl && (
               <a href={githubUrl} target="_blank" rel="noopener noreferrer">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#000000" className="bi bi-github" viewBox="0 0 16 16">
@@ -50,6 +53,7 @@ function ProfileCard({ imgSrc, title, name, linkedInUrl, githubUrl }) {
                 </svg>
               </a>
             )}
+            
             </div>
           </Card.Body>
         </Card>
