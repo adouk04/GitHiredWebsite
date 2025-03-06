@@ -26,46 +26,11 @@ function Officers() {
                     githubUrl="https://github.com/Shakhpazy"
                 />
                 <ProfileCard 
-                    imgSrc="/LwaziImg.jpg" 
+                    imgSrc="/LwaziImg.jpeg" 
                     title="Workshop Facilitator" 
                     name="Lwazi Mabota"
                     linkedInUrl="https://www.linkedin.com/in/lwazi-mabota1/"
-                    githubUrl="a"
-                />
-                <ProfileCard 
-                    imgSrc="/LwaziImg.jpg" 
-                    title="Workshop Facilitator" 
-                    name="Lwazi Mabota"
-                    linkedInUrl="https://www.linkedin.com/in/lwazi-mabota1/"
-                    githubUrl="a"
-                />
-                <ProfileCard 
-                    imgSrc="/LwaziImg.jpg" 
-                    title="Workshop Facilitator" 
-                    name="Lwazi Mabota"
-                    linkedInUrl="https://www.linkedin.com/in/lwazi-mabota1/"
-                    githubUrl="a"
-                />
-                <ProfileCard 
-                    imgSrc="/LwaziImg.jpg" 
-                    title="Workshop Facilitator" 
-                    name="Lwazi Mabota"
-                    linkedInUrl="https://www.linkedin.com/in/lwazi-mabota1/"
-                    githubUrl="a"
-                />
-                <ProfileCard 
-                    imgSrc="/LwaziImg.jpg" 
-                    title="Workshop Facilitator" 
-                    name="Lwazi Mabota"
-                    linkedInUrl="https://www.linkedin.com/in/lwazi-mabota1/"
-                    githubUrl="a"
-                />
-                <ProfileCard 
-                    imgSrc="/LwaziImg.jpg" 
-                    title="Workshop Facilitator" 
-                    name="Lwazi Mabota"
-                    linkedInUrl="https://www.linkedin.com/in/lwazi-mabota1/"
-                    githubUrl="a"
+                    githubUrl="https://github.com/lwazi71"
                 />
             </Container>
         </div>
