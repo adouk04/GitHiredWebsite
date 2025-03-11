@@ -26,12 +26,32 @@ function Officers() {
                     githubUrl="https://github.com/Shakhpazy"
                 />
                 <ProfileCard 
+                    imgSrc="/DuyImg.jpeg" 
+                    title="Workshop Facilitator" 
+                    name="Duy Ly"
+                    linkedInUrl="https://www.linkedin.com/in/ndly/"
+                    githubUrl="https://github.com/notduyly"
+                />
+                <ProfileCard 
                     imgSrc="/LwaziImg.jpeg" 
                     title="Workshop Facilitator" 
                     name="Lwazi Mabota"
                     linkedInUrl="https://www.linkedin.com/in/lwazi-mabota1/"
                     githubUrl="https://github.com/lwazi71"
                 />
+                <ProfileCard 
+                    imgSrc="/MuradImg.jpeg" 
+                    title="Workshop Facilitator" 
+                    name="Murad Tair"
+                    linkedInUrl="https://www.linkedin.com/in/murad-tair-b61706208/"
+                />
+                <ProfileCard 
+                    imgSrc="/QuientenImg.jpeg" 
+                    title="Workshop Facilitator" 
+                    name="Quienten Miller"
+                    linkedInUrl="https://www.linkedin.com/in/quienten-miller/"
+                />
+
             </Container>
         </div>
     );
