@@ -18,6 +18,7 @@ function Officers() {
                     linkedInUrl="https://www.linkedin.com/in/alex-douk1/"
                     githubUrl="https://github.com/adouk04"
                 />
+
                 <ProfileCard 
                     imgSrc="/YusufImg.jpeg"
                     title="Vice President" 
@@ -25,6 +26,7 @@ function Officers() {
                     linkedInUrl="https://www.linkedin.com/in/yusufshakhpaz/"
                     githubUrl="https://github.com/Shakhpazy"
                 />
+
                 <ProfileCard 
                     imgSrc="/DuyImg.jpeg" 
                     title="Workshop Facilitator" 
@@ -32,6 +34,7 @@ function Officers() {
                     linkedInUrl="https://www.linkedin.com/in/ndly/"
                     githubUrl="https://github.com/notduyly"
                 />
+
                 <ProfileCard 
                     imgSrc="/LwaziImg.jpeg" 
                     title="Workshop Facilitator" 
@@ -39,12 +42,7 @@ function Officers() {
                     linkedInUrl="https://www.linkedin.com/in/lwazi-mabota1/"
                     githubUrl="https://github.com/lwazi71"
                 />
-                <ProfileCard 
-                    imgSrc="/MuradImg.jpeg" 
-                    title="Workshop Facilitator" 
-                    name="Murad Tair"
-                    linkedInUrl="https://www.linkedin.com/in/murad-tair-b61706208/"
-                />
+
                 <ProfileCard 
                     imgSrc="/QuientenImg.jpeg" 
                     title="Workshop Facilitator" 
@@ -52,6 +50,27 @@ function Officers() {
                     linkedInUrl="https://www.linkedin.com/in/quienten-miller/"
                 />
 
+                <ProfileCard 
+                    imgSrc="" 
+                    title="Workshop Facilitator" 
+                    name="Bhavneet Bhargava"
+                    linkedInUrl="https://www.linkedin.com/in/bhavneetbhargava/"
+                />
+
+                <ProfileCard 
+                    imgSrc="/MuradImg.jpeg" 
+                    title="Interview Advisor" 
+                    name="Murad Tair"
+                    linkedInUrl="https://www.linkedin.com/in/murad-tair-b61706208/"
+                />
+
+                <ProfileCard 
+                    imgSrc="/ZafarImg.jpeg" 
+                    title="Janitor" 
+                    name="Khobaib Zafar"
+                    linkedInUrl="https://www.linkedin.com/in/khobaibzafar/"
+                />
+                
             </Container>
         </div>
     );
