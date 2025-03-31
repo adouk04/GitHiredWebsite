@@ -3,6 +3,8 @@ import InfoSection from './components/InfoSection';
 import InfoCard from './components/InfoCard';
 import ProfileCard from './components/ProfileCard';
 
+// Check Project_Ideas for future about page ideas
+// Listed as About-(put idea here)
 function About() {
 	return (
 		<div className='backgroundcolor'>

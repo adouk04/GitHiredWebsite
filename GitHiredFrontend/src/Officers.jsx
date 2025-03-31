@@ -1,7 +1,8 @@
 import ProfileCard from "./components/ProfileCard";
 import InfoCard from "./components/InfoCard";
 import { Container } from "react-bootstrap";
-//testing
+
+// Details of officers, including LinkedIn's and GitHub's
 function Officers() {
     return (
         <div className="backgroundcolor">
