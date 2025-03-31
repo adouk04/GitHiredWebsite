@@ -51,7 +51,7 @@ function Officers() {
                 />
 
                 <ProfileCard 
-                    imgSrc="" 
+                    imgSrc="/BhavneetPhoto.jpg" 
                     title="Workshop Facilitator" 
                     name="Bhavneet Bhargava"
                     linkedInUrl="https://www.linkedin.com/in/bhavneetbhargava/"
@@ -78,4 +78,3 @@ function Officers() {
 
 export default Officers
 
-//Testing my branch
