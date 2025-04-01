@@ -5,6 +5,14 @@ import ProfileCard from './components/ProfileCard';
 
 // Check Project_Ideas for future about page ideas
 // Listed as About-(put idea here)
+
+/* TO-DO 
+Create a component of caroseuls and find & add pictures of githired meetings (ADD TO TOP OF ABOUT PAGE)
+https://react-bootstrap.netlify.app/docs/components/carousel
+
+Remove Infosection for githired's meetings and add the image of room location with meeting times on the side
+*/
+
 function About() {
 	return (
 		<div className='backgroundcolor'>
@@ -28,9 +36,11 @@ function About() {
 			
 			
 			<InfoSection
-				title = "Empowering Students for Career Success"
-				text = "At GitHired, we provide students with the tools, guidance, and real-world practice they need to excel in technical interviews. From mock interviews to resume reviews, we help you build confidence and secure top opportunities."
-				imgSrc = "/GitHired-Logo-Transparent.png"
+				title = "GitHired Meetings"
+				text = "We provide students with the tools, guidance, and real-world practice they need to excel in technical interviews. From mock interviews to resume reviews, we help you build confidence and secure top opportunities."
+				// add another section
+				// Resize Campus Map to a nicer
+				imgSrc = "/CampusMap.png"
 				buttonText = "View More"
 				imageRight = {true} //true image right, false image left
 			/>
