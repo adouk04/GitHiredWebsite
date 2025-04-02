@@ -2,6 +2,7 @@ import { Container, Col, Button } from 'react-bootstrap';
 import InfoSection from './components/InfoSection';
 import InfoCard from './components/InfoCard';
 import ProfileCard from './components/ProfileCard';
+import InfoSectionNoButton from './components/InfoSectionNoButton';
 
 // Check Project_Ideas for future about page ideas
 // Listed as About-(put idea here)
@@ -11,6 +12,7 @@ Create a component of caroseuls and find & add pictures of githired meetings (AD
 https://react-bootstrap.netlify.app/docs/components/carousel
 
 Remove Infosection for githired's meetings and add the image of room location with meeting times on the side
+(Completed 4/1/2025 - Alex Douk)
 */
 
 function About() {
@@ -35,13 +37,21 @@ function About() {
 			</Container>
 			
 			
-			<InfoSection
+			{/* <InfoSection
 				title = "GitHired Meetings"
 				text = "We provide students with the tools, guidance, and real-world practice they need to excel in technical interviews. From mock interviews to resume reviews, we help you build confidence and secure top opportunities."
 				// add another section
 				// Resize Campus Map to a nicer
 				imgSrc = "/CampusMap.png"
 				buttonText = "View More"
+				imageRight = {true} //true image right, false image left
+			/> */}
+			<InfoSectionNoButton
+				imgSrc = "/CampusMap.png"
+				title = "What's at GitHired?"
+				title2 = "Meeting Times - Spring 2025"
+				text = "We provide students with the tools, guidance, and real-world practice they need to excel in technical interviews. From mock interviews to resume reviews, we help you build confidence and secure top opportunities."
+				text2 = "Weekly on Monday & Wednesdays, 1:00-3:00pm, MAT 214"
 				imageRight = {true} //true image right, false image left
 			/>
 
