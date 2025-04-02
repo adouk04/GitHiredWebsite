@@ -11,8 +11,6 @@ import InfoSectionNoButton from './components/InfoSectionNoButton';
 Create a component of caroseuls and find & add pictures of githired meetings (ADD TO TOP OF ABOUT PAGE)
 https://react-bootstrap.netlify.app/docs/components/carousel
 
-Remove Infosection for githired's meetings and add the image of room location with meeting times on the side
-(Completed 4/1/2025 - Alex Douk)
 */
 
 function About() {
@@ -39,7 +37,7 @@ function About() {
 			<InfoSectionNoButton
 				imgSrc = "/CampusMap.png"
 				title = "What's at GitHired?"
-				title2 = "Meeting Times - Spring 2025"
+				title2 = "Meeting Times (Spring 2025)"
 				text = "We provide students with the tools, guidance, and real-world practice they need to excel in technical interviews. From mock interviews to resume reviews, we help you build confidence and secure top opportunities."
 				text2 = "Weekly on Monday & Wednesdays, 1:00-3:00pm, MAT 214"
 				imageRight = {true} //true image right, false image left
