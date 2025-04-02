@@ -42,11 +42,13 @@ body, html {
 } 
 
 .logo {
-    max-width: 300px;
+    max-width: 600px;
     width: 100%;
     height: auto;
     margin-bottom: 20px;
     background: transparent;
+    border-radius: 12px;
+    object-fit: cover;
 }
 
 .meetingLocation {

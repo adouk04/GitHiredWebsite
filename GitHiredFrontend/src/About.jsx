@@ -36,16 +36,6 @@ function About() {
 				</Col>
 			</Container>
 			
-			
-			{/* <InfoSection
-				title = "GitHired Meetings"
-				text = "We provide students with the tools, guidance, and real-world practice they need to excel in technical interviews. From mock interviews to resume reviews, we help you build confidence and secure top opportunities."
-				// add another section
-				// Resize Campus Map to a nicer
-				imgSrc = "/CampusMap.png"
-				buttonText = "View More"
-				imageRight = {true} //true image right, false image left
-			/> */}
 			<InfoSectionNoButton
 				imgSrc = "/CampusMap.png"
 				title = "What's at GitHired?"
@@ -58,7 +48,7 @@ function About() {
 			<InfoSection
 				title = "A Community Built for Growth"
 				text = "At GitHired, you're not just preparing alone—you’re part of a network of ambitious students and professionals. Collaborate with peers, get insights from industry mentors, and stay motivated with group study sessions. Success is easier when you grow together!"
-				imgSrc = "/GitHired-Logo-Transparent.png"
+				imgSrc = "/meetingPhoto.png"
 				buttonText = "View More"
 				imageRight = {false} //true image right, false image left
 			/>
