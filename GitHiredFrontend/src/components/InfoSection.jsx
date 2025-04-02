@@ -15,13 +15,13 @@ function InfoSection({ title, text, imgSrc, buttonText, imageRight }) {
                         {/* add button if needed but right now its irrelavant <Button>{buttonText}</Button> */}
                     </Col>
                     <Col md={5} className='d-flex'>
-                        <img className="d-block logo m-auto" src={imgSrc} alt="GitHired Logo"/>
+                        <img className="d-block photos m-auto" src={imgSrc} alt="GitHired Logo"/>
                     </Col>
                 </>
                 ) : (
                 <>
                     <Col md={5} className='d-flex'>
-					<img className="d-block logo m-auto" src={imgSrc} alt="GitHired Logo"/>
+					<img className="d-block photos m-auto" src={imgSrc} alt="GitHired Logo"/>
                     </Col>
                     <Col md={7} className='text-end'>
                         <h1>{title}</h1>
