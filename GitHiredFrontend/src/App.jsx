@@ -4,7 +4,7 @@ import Home from "./Home"
 import Footer from "./Footer"
 import About from "./About"
 import Officers from "./Officers"
-
+import Events from "./Events"
 
 function App() {
     return (
@@ -16,6 +16,7 @@ function App() {
                 <Route path="/" element={<Home />} /> {/* Home Page */}
                 <Route path="/about" element={<About />} /> {/* About Us Page */}
                 <Route path="/officers" element={<Officers />} /> {/* Officers Page */}
+                <Route path="/events" element={<Events/>} /> {/* Events Page */}
             </Routes>
             
             <Footer />

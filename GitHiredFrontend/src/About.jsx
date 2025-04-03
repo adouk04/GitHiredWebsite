@@ -16,7 +16,9 @@ https://react-bootstrap.netlify.app/docs/components/carousel
 function About() {
 	return (
 		<div className='backgroundcolor'>
+			
 {/* 
+Removed top part of about page for a cleaner look, can decide later if we want to add it back at a later time
 			<Container fluid className='px-4 py-4 text-center'>
 				<img className="d-block mx-auto mb-4 logo" src="/GitHired-Logo-Transparent.png" alt="GitHired Logo"/>
 				<Col>
