@@ -16,7 +16,7 @@ https://react-bootstrap.netlify.app/docs/components/carousel
 function About() {
 	return (
 		<div className='backgroundcolor'>
-
+{/* 
 			<Container fluid className='px-4 py-4 text-center'>
 				<img className="d-block mx-auto mb-4 logo" src="/GitHired-Logo-Transparent.png" alt="GitHired Logo"/>
 				<Col>
@@ -32,7 +32,7 @@ function About() {
 					<Button variant="outline-secondary">LeetCode With Us</Button>
 				</div>
 				</Col>
-			</Container>
+			</Container> */}
 			
 			<InfoSectionNoButton
 				imgSrc = "/CampusMap.png"

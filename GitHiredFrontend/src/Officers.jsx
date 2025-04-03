@@ -66,7 +66,7 @@ function Officers() {
                 />
 
                 <ProfileCard 
-                    imgSrc="/ZafarImg.jpeg" 
+                    imgSrc="/Zafarimg.png" 
                     title="Janitor" 
                     name="Khobaib Zafar"
                     linkedInUrl="https://www.linkedin.com/in/khobaibzafar/"
